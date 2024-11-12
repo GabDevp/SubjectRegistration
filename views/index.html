@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de docentes</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <h1>REGISTRO DE DOCENTES</h1>
+    <form action="" method="POST" id="myForm">
+        <div class="row">
+            <div class="col-8 mb-2">
+                <label for="materia">Materia :</label>
+                <input type="text" class="form-control" name="materia" id="materia">
+            </div>
+            <div class="col-4 mb-2">
+                <label for="dia que la dicta">Dia que se dicta :</label>
+                <input type="text" class="form-control" name="dia" id="dia">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8 mb-2">
+                <label for="profesor">Docente :</label>
+                <input type="text" class="form-control" name="profesor" id="profesor">
+            </div>
+            <div class="col-4 mb-2">
+                <label for="cupos">Cupos :</label>
+                <input type="number" class="form-control" name="cupos" id="cupos">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <label for="fecha de inicio">Fecha de inicio :</label>
+                <input type="date" class="form-control" name="fecha" id="fecha">
+            </div>
+            <div class="col-6">
+                <label for="creditos">Créditos :</label>
+                <input type="number" class="form-control" name="creditos" id="creditos">
+            </div>
+        </div>
+    </form>
+    <br>
+    <div class="d-flex justify-content-center">
+        <button type="submit" class="btn btn-primary" value="Guardar" id="guardar">Registrar</button>
+    </div>
+    <br>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>    
+    <script src="./script.js"></script>
+</body>
+</html>

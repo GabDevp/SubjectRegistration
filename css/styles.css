@@ -1,0 +1,35 @@
+body{
+    background-color: #c7c3c3;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(41, 43, 43);
+}
+
+form{
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #cfc7c7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+button{
+    width: auto;
+    border: 0;
+    border-radius: 5px;
+    background-color: aqua;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(4, 4, 68);
+}
